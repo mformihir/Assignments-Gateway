@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>
+        HTML Assignment
+    </title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,700&display=swap"
+        rel="stylesheet">
+        <script src="https://kit.fontawesome.com/135cc817b4.js" crossorigin="anonymous">
+        </script>
+    <style>
+        .wrapper {
+            display: grid;
+            grid-template-rows: auto auto auto auto;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        a:hover {
+            color: #92DFCE;
+            text-decoration: none;
+        }
+
+        .header {
+            display: grid;
+            grid-template-columns: auto auto;
+            background-color: #dbffff;
+            border-radius: 10px;
+        }
+
+        .logo {
+            justify-self: start;
+            margin: 10px;
+            transform: scale(0.5);
+        }
+
+        .navigation {
+            justify-self: end;
+            margin: 10px;
+            width: 100%;
+        }
+
+        .nav-links {
+            display: grid;
+            grid-template-columns: auto auto auto auto auto;
+            justify-items: center;
+            align-self: center;
+            text-align: center;
+            padding-top: 12px;
+            height: 100%;
+        }
+
+        .about {
+            display: grid;
+            grid-template-rows: auto auto;
+            border-radius: 10px;
+        }
+
+        .banner {
+            justify-self: center;
+            padding: 10px;
+            height: 50px;
+
+        }
+
+        .punchline {
+            padding: 50px;
+            height: 50px;
+            margin-top: 50px;
+            margin-bottom: 70px;
+        }
+
+        #read-more-button {
+            background-color: white;
+            transition-duration: 0.4s;
+            font-size: large;
+            border: 1px solid #75ccb9;
+            border-radius: 5px;
+            padding: 10px;
+            box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+            outline: none;
+        }
+
+        .main {
+            display: grid;
+            grid-template-rows: auto auto auto auto;
+            justify-items: center;
+        }
+
+        .service {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            width: 100%;
+            align-items: center;
+            justify-items: center;
+        }
+
+        .service-item {
+            background-color: #dbffff;
+            text-align: center;
+            width: 50%;
+            height: 200px;
+            box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+            border-radius: 5px;
+        }
+
+        .client-logo {
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+
+        .client-logos {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+            align-items: center;
+            justify-items: center;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        #logo {
+            background-color: white;
+            border: 1px solid black;
+            border-radius: 10px;
+            justify-self: center;
+            height: 100px;
+            width: 100px;
+            text-align: center;
+        }
+
+        .footer {
+            display: grid;
+            grid-template-rows: auto auto;
+        }
+
+        .column-right {
+            justify-self: end;
+        }
+
+        .footer-row {
+            display: grid;
+            grid-template-columns: auto auto;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="logo">
+                <svg version="1.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;"
+                    width="100" height="39.6" viewBox="135.5 361.375 200 72" overflow="visible"
+                    enable-background="new 135.5 361.375 200 72" xml:space="preserve">
+                    <path d="M159.23,431.966c-5.84-0.232-10.618-1.83-14.354-4.798c-0.713-0.567-2.412-2.267-2.982-2.984
+	c-1.515-1.905-2.545-3.759-3.232-5.816c-2.114-6.332-1.026-14.641,3.112-23.76c3.543-7.807,9.01-15.55,18.548-26.274
+	c1.405-1.578,5.589-6.193,5.616-6.193c0.01,0-0.218,0.395-0.505,0.876c-2.48,4.154-4.602,9.047-5.758,13.283
+	c-1.857,6.797-1.633,12.63,0.656,17.153c1.579,3.116,4.286,5.815,7.33,7.307c5.329,2.611,13.131,2.827,22.659,0.632
+	c0.656-0.152,33.162-8.781,72.236-19.176c39.074-10.396,71.049-18.895,71.054-18.888c0.011,0.009-90.78,38.859-137.911,59.014
+	c-7.464,3.191-9.46,3.997-12.969,5.229C173.76,430.721,165.725,432.224,159.23,431.966z" />
+                </svg>
+            </div>
+            <div class="navigation">
+                <div class="nav-links">
+                    <div id="#home">
+                        <a href="#">Home</a>
+                    </div>
+                    <div id="#about">
+                        <a href="#about">About</a>
+                    </div>
+                    <div id="#service">
+                        <a href="#service">Service</a>
+                    </div>
+                    <div id="#product">
+                        <a href="#service">Product</a>
+                    </div>
+                    <div id="#contact">
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about" id="about" style="background-color: #a7ffeb; margin-top: 5px;">
+            <div class="banner" style="font-weight: 700; font-style: italic; font-size: 70pt;">
+                BANNER
+            </div>
+            <div class="punchline" style="font-weight: 700; font-size: 30pt; opacity: 0.9;">
+                THIS IS IT.
+                <button type="button" id="read-more-button" style="display: block; margin-top: 10px;"><a href="#">Read
+                        More</a></button>
+            </div>
+        </div>
+        <div class="main" id="product" style="background-color: white;">
+            <div class="text" style="text-align: center; margin: 30px; font-family: 'Open Sans', sans-serif;">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt odit ducimus unde consequuntur iure
+                incidunt, quia itaque deleniti similique nesciunt nulla aperiam hic rem vitae tempora a numquam
+                aspernatur minima?
+            </div>
+            <div class="service" id="service">
+                <div class="service-item">
+                    <div class="logo-container" style="padding-top: 78px;">
+                        <svg version="1.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns="&ns_svg;"
+                            xmlns:xlink="&ns_xlink;" width="100" height="39.6" viewBox="135.5 361.375 200 72"
+                            overflow="visible" enable-background="new 135.5 361.375 200 72" xml:space="preserve">
+                            <path d="M159.23,431.966c-5.84-0.232-10.618-1.83-14.354-4.798c-0.713-0.567-2.412-2.267-2.982-2.984
+	c-1.515-1.905-2.545-3.759-3.232-5.816c-2.114-6.332-1.026-14.641,3.112-23.76c3.543-7.807,9.01-15.55,18.548-26.274
+	c1.405-1.578,5.589-6.193,5.616-6.193c0.01,0-0.218,0.395-0.505,0.876c-2.48,4.154-4.602,9.047-5.758,13.283
+	c-1.857,6.797-1.633,12.63,0.656,17.153c1.579,3.116,4.286,5.815,7.33,7.307c5.329,2.611,13.131,2.827,22.659,0.632
+	c0.656-0.152,33.162-8.781,72.236-19.176c39.074-10.396,71.049-18.895,71.054-18.888c0.011,0.009-90.78,38.859-137.911,59.014
+	c-7.464,3.191-9.46,3.997-12.969,5.229C173.76,430.721,165.725,432.224,159.23,431.966z" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="service-item">
+                    <div class="logo-container" style="padding-top: 78px;">
+                        <svg version="1.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns="&ns_svg;"
+                            xmlns:xlink="&ns_xlink;" width="100" height="39.6" viewBox="135.5 361.375 200 72"
+                            overflow="visible" enable-background="new 135.5 361.375 200 72" xml:space="preserve">
+                            <path d="M159.23,431.966c-5.84-0.232-10.618-1.83-14.354-4.798c-0.713-0.567-2.412-2.267-2.982-2.984
+	c-1.515-1.905-2.545-3.759-3.232-5.816c-2.114-6.332-1.026-14.641,3.112-23.76c3.543-7.807,9.01-15.55,18.548-26.274
+	c1.405-1.578,5.589-6.193,5.616-6.193c0.01,0-0.218,0.395-0.505,0.876c-2.48,4.154-4.602,9.047-5.758,13.283
+	c-1.857,6.797-1.633,12.63,0.656,17.153c1.579,3.116,4.286,5.815,7.33,7.307c5.329,2.611,13.131,2.827,22.659,0.632
+	c0.656-0.152,33.162-8.781,72.236-19.176c39.074-10.396,71.049-18.895,71.054-18.888c0.011,0.009-90.78,38.859-137.911,59.014
+	c-7.464,3.191-9.46,3.997-12.969,5.229C173.76,430.721,165.725,432.224,159.23,431.966z" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="service-item">
+                    <div class="logo-container" style="padding-top: 78px;">
+                        <svg version="1.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns="&ns_svg;"
+                            xmlns:xlink="&ns_xlink;" width="100" height="39.6" viewBox="135.5 361.375 200 72"
+                            overflow="visible" enable-background="new 135.5 361.375 200 72" xml:space="preserve">
+                            <path d="M159.23,431.966c-5.84-0.232-10.618-1.83-14.354-4.798c-0.713-0.567-2.412-2.267-2.982-2.984
+	c-1.515-1.905-2.545-3.759-3.232-5.816c-2.114-6.332-1.026-14.641,3.112-23.76c3.543-7.807,9.01-15.55,18.548-26.274
+	c1.405-1.578,5.589-6.193,5.616-6.193c0.01,0-0.218,0.395-0.505,0.876c-2.48,4.154-4.602,9.047-5.758,13.283
+	c-1.857,6.797-1.633,12.63,0.656,17.153c1.579,3.116,4.286,5.815,7.33,7.307c5.329,2.611,13.131,2.827,22.659,0.632
+	c0.656-0.152,33.162-8.781,72.236-19.176c39.074-10.396,71.049-18.895,71.054-18.888c0.011,0.009-90.78,38.859-137.911,59.014
+	c-7.464,3.191-9.46,3.997-12.969,5.229C173.76,430.721,165.725,432.224,159.23,431.966z" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="client-logo" style="font-family: 'Roboto', sans-serif; font-weight: 300; font-size: xx-large;">
+                OUR CLIENTS
+            </div>
+            <div class="client-logos">
+                <div id="logo" style="margin: auto;">
+                    Logo
+                </div>
+                <div id="logo">
+                    Logo
+                </div>
+                <div id="logo">
+                    Logo
+                </div>
+                <div id="logo">
+                    Logo
+                </div>
+                <div id="logo">
+                    Logo
+                </div>
+                <div id="logo">
+                    Logo
+                </div>
+            </div>
+        </div>
+        <div class="footer" id="contact" style="background-color: #dbffff;">
+            <div class="footer-row">
+                <div class="column-left">
+                    FOOTER ADDRESS </br>
+                    Address Line 1 </br>
+                    <i class="fa fa-facebook"><a href="#"></a></i>
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-facebook"></i>
+                </div>
+                <div class="column-right">
+                    FOOTER LINKS
+                </div>
+            </div>
+            <div class="footer-row">
+                <div class="column-left">
+                    COPYRIGHT
+                </div>
+                <div class="column-right">
+                    PRIVACY
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
