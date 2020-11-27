@@ -17,4 +17,5 @@ For easier access, I have provided direct links to the necessary files below.
 - The Create Form/View to utilize validations is located at: [Views/People/Create.cshtml](https://github.com/mformihir/Assignments-Gateway/blob/main/SourceControlAssignment1/DataAnnotationsExample/DataAnnotationsExample/Views/People/Create.cshtml)
 - The project uses Entity Framework.
 - I have not mapped the FileExtension Attribute to the database to simplify execution.
-- Snapshot of the validations: ![Create Form](https://github.com/mformihir/Assignments-Gateway/blob/master/SourceControlAssignment1/Screenshots/CreateValidationScreenshot1.jpg?raw=true)
+- Snapshot of the validations: 
+  ![CreateForm](https://github.com/mformihir/Assignments-Gateway/blob/main/SourceControlAssignment1/Screenshots/CreateValidationScreenshot1.jpg?raw=true)
