@@ -9,16 +9,18 @@ using System.Web;
 using System.Web.Mvc;
 using SourceControlFinalAssignment.DAL;
 using SourceControlFinalAssignment.Models;
+using log4net;
 
 namespace SourceControlFinalAssignment.Controllers
 {
     public class ProductsController : Controller
     {
         private ProductContext db = new ProductContext();
-
+        private static readonly ILog Log = LogManager.GetLogger(typeof(ProductsController));
         // GET: Products
         public ActionResult Index()
         {
+            Log.Info("Executing Index Method");
             return View(db.Products.ToList());
         }
 
@@ -50,8 +52,10 @@ namespace SourceControlFinalAssignment.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "Id,ProductName,Category,Price,Quantity,ShortDesc,LongDesc,ProductImage,DealerPhone,ProductRegion")] Product product)
         {
+            Log.Info("Executing HttpPost Create Method");
             if (ModelState.IsValid)
             {
+                Log.Info("ModelState is valid");
                 //to save the product image
                 if (product.ProductImage != null)
                 {
