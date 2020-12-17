@@ -41,7 +41,7 @@ namespace SourceControlFinalAssignment.Models
         [Phone]
         public string DealerPhone { get; set; }
 
-        [ProductRegion("Asia, Europe")]
+        [ProductRegion("Asia,Europe")]
         public string ProductRegion { get; set; } //in which regions the product is currently available
     }
 }
