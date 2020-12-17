@@ -13,6 +13,7 @@ using log4net;
 
 namespace SourceControlFinalAssignment.Controllers
 {
+    [Authorize]
     public class ProductsController : Controller
     {
         private ProductContext db = new ProductContext();
@@ -20,7 +21,15 @@ namespace SourceControlFinalAssignment.Controllers
         // GET: Products
         public ActionResult Index()
         {
-            Log.Info("Executing Index Method");
+            try
+            {
+                Log.Info("Executing Index Method");
+            }
+            catch (Exception ex)
+            {
+                Log.Error("Exception occured", ex);
+                throw;
+            }
             return View(db.Products.ToList());
         }
 
@@ -53,57 +62,32 @@ namespace SourceControlFinalAssignment.Controllers
         public ActionResult Create([Bind(Include = "Id,ProductName,Category,Price,Quantity,ShortDesc,LongDesc,ProductImage,DealerPhone,ProductRegion")] Product product)
         {
             Log.Info("Executing HttpPost Create Method");
-            if (ModelState.IsValid)
+            try
             {
-                Log.Info("ModelState is valid");
-                //to save the product image
-                if (product.ProductImage != null)
+                if (ModelState.IsValid)
                 {
-                    string FileName = Path.GetFileName(product.ProductImage.FileName);
-                    string FilePath = Path.Combine(HttpContext.Server.MapPath("~/ProductImages"), FileName);
+                    Log.Info("ModelState is valid");
+                    //to save the product image
+                    if (product.ProductImage != null)
+                    {
+                        string FileName = Path.GetFileName(product.ProductImage.FileName);
+                        string FilePath = Path.Combine(Server.MapPath("~/ProductImages/"), FileName);
 
-                    product.ProductImagePath = FilePath;
+                        product.ProductImagePath = "~/ProductImages/" + FileName;
 
-                    //To copy and save file into server.  
-                    product.ProductImage.SaveAs(product.ProductImagePath);
+                        //To copy and save file into server.  
+                        product.ProductImage.SaveAs(FilePath);
+                    }
+
+                    db.Products.Add(product);
+                    db.SaveChanges();
+                    return RedirectToAction("Index");
                 }
-
-                db.Products.Add(product);
-                db.SaveChanges();
-                return RedirectToAction("Index");
             }
-
-            return View(product);
-        }
-
-        // GET: Products/Edit/5
-        public ActionResult Edit(int? id)
-        {
-            if (id == null)
+            catch (Exception ex)
             {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
-            Product product = db.Products.Find(id);
-            if (product == null)
-            {
-                return HttpNotFound();
-            }
-            return View(product);
-        }
-
-        // POST: Products/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
-        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,ProductName,Category,Price,Quantity,ShortDesc,LongDesc,ProductImage,DealerPhone")] Product product)
-        {
-            if (ModelState.IsValid)
-            {
-
-                db.Entry(product).State = EntityState.Modified;
-                db.SaveChanges();
-                return RedirectToAction("Index");
+                Log.Error("Exception occured:", ex);
+                throw;
             }
             return View(product);
         }
@@ -128,9 +112,17 @@ namespace SourceControlFinalAssignment.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            Product product = db.Products.Find(id);
-            db.Products.Remove(product);
-            db.SaveChanges();
+            try
+            {
+                Product product = db.Products.Find(id);
+                db.Products.Remove(product);
+                db.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                Log.Error("Exception occured:", ex);
+                throw;
+            }
             return RedirectToAction("Index");
         }
 
@@ -138,6 +130,7 @@ namespace SourceControlFinalAssignment.Controllers
         {
             if (disposing)
             {
+                Log.Info("Disposing.");
                 db.Dispose();
             }
             base.Dispose(disposing);
