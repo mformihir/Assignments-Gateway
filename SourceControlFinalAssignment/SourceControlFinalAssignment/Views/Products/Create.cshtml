@@ -7,14 +7,14 @@
 <h2>Create</h2>
 
 
-@using (Html.BeginForm("Create", "Products", FormMethod.Post, new { enctype = "multipart/form-data" }))
+@using (Html.BeginForm("Create", "Products", FormMethod.Post, new { enctype = "multipart/form-data", id = "ProductForm", onsubmit = "ValidateRegion();" }))
 {
     @Html.AntiForgeryToken()
 
     <div class="form-horizontal">
         <h4>Product</h4>
         <hr />
-        @Html.ValidationSummary()
+        @Html.ValidationSummary(false, "", new { @id = "js-val-summary" })
         <div class="form-group">
             @Html.LabelFor(model => model.ProductName, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
@@ -66,8 +66,8 @@
         <div class="form-group">
             @Html.LabelFor(model => model.ProductImage, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                <input type="file" name="ProductImage" />
-                @Html.ValidationMessageFor(model => model.ProductImage, "", new { @class = "text-danger" })
+                <input type="file" class="form-control-static" name="ProductImage" id="ProductImage1" />
+                @Html.ValidationMessageFor(model => model.ProductImage, "", new { @id = "js-validate-file", @class = "text-danger" })
             </div>
         </div>
 
@@ -81,8 +81,8 @@
         <div class="form-group">
             @Html.LabelFor(model => model.ProductRegion, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.ProductRegion, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.ProductRegion, "", new { @class = "text-danger" })
+                @Html.EditorFor(model => model.ProductRegion, new { htmlAttributes = new { @id = "ProductRegion", @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.ProductRegion, "", new { @id = "js-validate-product-region", @class = "text-danger" })
             </div>
         </div>
 
@@ -100,4 +100,82 @@
 
 @section Scripts {
     @Scripts.Render("~/bundles/jqueryval")
+    <script>
+        $(document).ready(function () {
+            //function to validate file extension
+            $("#ProductImage1").change(function () {
+                $('#js-validate-file').hide();
+                // Get uploaded file extension
+                var extension = $(this).val().split('.').pop().toLowerCase();
+                var validFileExtensions = ['jpeg', 'jpg', 'png'];
+                if ($.inArray(extension, validFileExtensions) == -1) {
+                    $('#js-validate-file').text("Only .jpeg, .jpg, and .png files are supported ").show();
+
+                    //clearing fileupload
+                    $(this).replaceWith($(this).val('').clone(true));
+                }
+            });
+        });
+
+        //this function performs validation for ProductRegion, and adds the errors to the ValidationSummary
+        function ValidateRegion() {
+
+            var formValidator,
+                $form = $("#ProductForm");
+
+            // add handler to the submit action
+            $form.submit(function () {
+                if (!formValidator) {
+                    formValidator = $form.validate({}); // Get existing jquery validate object
+                }
+
+                var errorList = [];
+
+                // get existing summary errors
+                $.each(formValidator.errorList, function (index, errorListItem) {
+                    errorList.push(errorListItem.message);
+                });
+
+                $('#js-validate-product-region').hide();
+                var allowedRegions = ['asia', 'europe'];
+                var isSupportedRegion = true;
+                var enteredRegion = $('#ProductRegion').val().toLowerCase();
+                var index = $.inArray(enteredRegion, allowedRegions)
+                if (index == -1) {
+                    isSupportedRegion = false;
+                }
+
+                if (!isSupportedRegion) {
+                    errorList.push("Only Asia and Europe regions are supported as of now.");
+                }
+
+                // If no errors do nothing
+                if (0 === errorList.length) {
+                    return true; // allow submit
+                }
+
+                // Finding summary div
+                var $summary = $form.find("#js-val-summary");
+
+                // Finding the unordered list
+                var $ul = $summary.find("ul");
+
+                // Clearing existing errors
+                $ul.empty();
+
+                // Add all errors to the list
+                $.each(errorList, function (index, message) {
+                    $("<li />").html(message).appendTo($ul);
+                });
+
+                // Add the appropriate class to the summary div
+                $summary.removeClass("validation-summary-valid")
+                    .addClass("validation-summary-errors");
+
+                console.log("Blocking submit.");
+                return false; // Block the submit
+            });
+
+        }
+    </script>
 }
