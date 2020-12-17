@@ -57,6 +57,13 @@
         <dd>
             @Html.DisplayFor(model => model.LongDesc)
         </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ProductImage)
+        </dt>
+
+        <dd>
+            <img src="@Url.Content(Model.ProductImagePath)" alt="product photo" />
+        </dd>
 
         <dt>
             @Html.DisplayNameFor(model => model.DealerPhone)
@@ -65,7 +72,13 @@
         <dd>
             @Html.DisplayFor(model => model.DealerPhone)
         </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ProductRegion)
+        </dt>
 
+        <dd>
+            @Html.DisplayFor(model => model.ProductRegion)
+        </dd>
     </dl>
 </div>
 <p>
