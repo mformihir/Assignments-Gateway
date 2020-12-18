@@ -1,6 +1,5 @@
-## Source Control Final Assignment
-- The respective files for this assignment are located at: [SourceControlFinalAssignment](https://github.com/mformihir/Assignments-Gateway/tree/main/SourceControlFinalAssignment)
-
+# Source Control Final Assignment
+- Please use this README to navigate easily.
 1) Create Login, Registration and Display a simple Dashboard page with detail of User after Successful Login or Register
    - **Controllers**: [AccountController](https://github.com/mformihir/Assignments-Gateway/blob/main/SourceControlFinalAssignment/SourceControlFinalAssignment/Controllers/AccountController.cs), [ManageController](https://github.com/mformihir/Assignments-Gateway/blob/main/SourceControlFinalAssignment/SourceControlFinalAssignment/Controllers/ManageController.cs)
    - **Models**: [AccountViewModels](https://github.com/mformihir/Assignments-Gateway/blob/main/SourceControlFinalAssignment/SourceControlFinalAssignment/Models/AccountViewModels.cs), [ManageViewModels](https://github.com/mformihir/Assignments-Gateway/blob/main/SourceControlFinalAssignment/SourceControlFinalAssignment/Models/ManageViewModels.cs),
