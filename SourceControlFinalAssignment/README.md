@@ -10,7 +10,6 @@
    - After successful login, user is directed to the Homepage/Dashboard.
    - Screenshots:
    ![Dashboard](https://github.com/mformihir/Assignments-Gateway/blob/main/SourceControlFinalAssignment/Screenshots/Dashboard.jpg?raw=true)
-   </details>
    - Respective Commits: 
      - [IdentityModels](https://github.com/mformihir/Assignments-Gateway/blob/main/SourceControlFinalAssignment/SourceControlFinalAssignment/Models/IdentityModels.cs)
 2) Mapped the project in Git with below operations:
