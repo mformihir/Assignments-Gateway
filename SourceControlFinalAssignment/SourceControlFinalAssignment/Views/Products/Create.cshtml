@@ -145,7 +145,7 @@
                     isSupportedRegion = false;
                 }
 
-                if (!isSupportedRegion) {
+                if (enteredRegion && !isSupportedRegion) {
                     errorList.push("Only Asia and Europe regions are supported as of now.");
                 }
 

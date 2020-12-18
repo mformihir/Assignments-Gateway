@@ -1,0 +1,308 @@
+2020-12-17 10:08:46,960 [7] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing HttpPost Create Method
+2020-12-17 10:08:47,134 [7] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - ModelState is valid
+2020-12-17 10:08:55,419 [7] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 10:10:04,587 [12] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing HttpPost Create Method
+2020-12-17 11:20:10,287 [37] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing HttpPost Create Method
+2020-12-17 11:20:10,736 [37] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - ModelState is valid
+2020-12-17 11:20:13,393 [40] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 11:23:54,662 [22] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 11:24:05,643 [40] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 11:24:08,314 [22] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 11:24:10,995 [40] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 11:24:13,032 [22] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 11:24:14,870 [22] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 11:24:18,045 [40] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 11:26:44,114 [17] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing HttpPost Create Method
+2020-12-17 11:27:37,530 [17] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing HttpPost Create Method
+2020-12-17 11:27:49,687 [7] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing HttpPost Create Method
+2020-12-17 11:27:49,689 [7] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - ModelState is valid
+2020-12-17 11:27:49,721 [7] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 11:31:38,235 [7] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 11:31:52,156 [13] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing HttpPost Create Method
+2020-12-17 11:31:52,157 [13] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - ModelState is valid
+2020-12-17 11:31:52,190 [7] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 11:32:12,452 [40] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing HttpPost Create Method
+2020-12-17 11:32:12,454 [40] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - ModelState is valid
+2020-12-17 11:32:12,479 [21] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 11:47:21,507 [7] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing HttpPost Create Method
+2020-12-17 11:47:21,703 [7] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - ModelState is valid
+2020-12-17 11:47:24,119 [12] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 11:47:42,934 [11] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing HttpPost Create Method
+2020-12-17 11:48:56,664 [19] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing HttpPost Create Method
+2020-12-17 11:49:08,508 [7] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing HttpPost Create Method
+2020-12-17 11:49:19,185 [11] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 11:49:37,585 [22] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing HttpPost Create Method
+2020-12-17 11:49:37,587 [22] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - ModelState is valid
+2020-12-17 11:49:37,616 [7] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 12:04:47,581 [27] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing HttpPost Create Method
+2020-12-17 12:04:47,585 [27] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - ModelState is valid
+2020-12-17 12:04:47,652 [15] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 12:05:24,716 [29] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing HttpPost Create Method
+2020-12-17 12:05:24,723 [29] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - ModelState is valid
+2020-12-17 12:05:24,784 [29] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 17:14:01,107 [13] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing HttpPost Create Method
+2020-12-17 17:14:44,508 [11] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing HttpPost Create Method
+2020-12-17 17:14:47,914 [13] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing HttpPost Create Method
+2020-12-17 17:14:53,553 [13] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing HttpPost Create Method
+2020-12-17 17:15:01,507 [11] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing HttpPost Create Method
+2020-12-17 17:15:01,509 [11] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - ModelState is valid
+2020-12-17 17:15:04,168 [13] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 17:15:11,650 [11] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing HttpPost Create Method
+2020-12-17 17:15:11,651 [11] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - ModelState is valid
+2020-12-17 17:15:11,685 [7] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 17:15:19,089 [13] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing HttpPost Create Method
+2020-12-17 17:15:23,185 [7] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing HttpPost Create Method
+2020-12-17 17:15:41,523 [13] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing HttpPost Create Method
+2020-12-17 17:16:42,793 [13] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing HttpPost Create Method
+2020-12-17 17:16:58,848 [7] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing HttpPost Create Method
+2020-12-17 17:16:58,850 [7] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - ModelState is valid
+2020-12-17 17:16:58,887 [13] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 17:23:48,887 [25] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing HttpPost Create Method
+2020-12-17 17:23:49,147 [25] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - ModelState is valid
+2020-12-17 17:23:51,158 [18] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 17:24:00,145 [25] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 17:24:03,884 [24] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 17:24:06,559 [25] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 17:24:08,707 [16] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 17:24:10,601 [18] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 17:24:12,626 [21] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 17:24:14,305 [18] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 17:24:15,822 [18] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 17:24:17,430 [18] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 17:33:36,084 [34] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing HttpPost Create Method
+2020-12-17 17:33:36,088 [34] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - ModelState is valid
+2020-12-17 17:33:36,133 [34] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 17:46:21,281 [41] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing HttpPost Create Method
+2020-12-17 17:46:21,283 [41] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - ModelState is valid
+2020-12-17 17:46:21,312 [46] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 19:08:59,654 [33] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:09:08,214 [14] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 19:09:09,098 [14] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:10:42,096 [25] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 19:10:42,815 [25] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:11:54,881 [25] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 19:11:55,557 [25] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:12:04,617 [14] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:12:16,941 [28] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:13:18,500 [25] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 19:13:20,635 [25] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:14:08,871 [9] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 19:14:09,569 [9] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:14:12,070 [11] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:14:13,770 [17] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:14:13,781 [11] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 19:14:13,787 [11] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:14:15,283 [17] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:14:16,342 [25] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:14:16,351 [17] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 19:14:16,356 [17] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:14:17,286 [28] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:14:18,184 [25] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:14:18,194 [17] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 19:14:18,199 [17] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:14:19,063 [28] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:14:19,932 [17] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:14:19,941 [25] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 19:14:19,945 [25] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:14:51,435 [28] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:15:05,769 [9] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing HttpPost Create Method
+2020-12-17 19:15:05,779 [9] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:15:17,085 [9] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing HttpPost Create Method
+2020-12-17 19:15:17,088 [9] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - ModelState is valid
+2020-12-17 19:15:17,093 [9] ERROR SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Exception occured:
+System.Web.HttpException (0x80004005): The SaveAs method is configured to require a rooted path, and the path '~/ProductImages/samsung.jpg' is not rooted.
+   at System.Web.HttpPostedFile.SaveAs(String filename)
+   at System.Web.HttpPostedFileWrapper.SaveAs(String filename)
+   at SourceControlFinalAssignment.Controllers.ProductsController.Create(Product product) in E:\Learn\Gateway\Assignments-Gateway\SourceControlFinalAssignment\SourceControlFinalAssignment\Controllers\ProductsController.cs:line 78
+2020-12-17 19:15:17,106 [9] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:15:24,632 [17] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing HttpPost Create Method
+2020-12-17 19:15:24,634 [17] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - ModelState is valid
+2020-12-17 19:15:24,635 [17] ERROR SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Exception occured:
+System.Web.HttpException (0x80004005): The SaveAs method is configured to require a rooted path, and the path '~/ProductImages/iphone.jpg' is not rooted.
+   at System.Web.HttpPostedFile.SaveAs(String filename)
+   at System.Web.HttpPostedFileWrapper.SaveAs(String filename)
+   at SourceControlFinalAssignment.Controllers.ProductsController.Create(Product product) in E:\Learn\Gateway\Assignments-Gateway\SourceControlFinalAssignment\SourceControlFinalAssignment\Controllers\ProductsController.cs:line 78
+2020-12-17 19:15:24,640 [17] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:15:28,234 [28] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing HttpPost Create Method
+2020-12-17 19:15:28,237 [28] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - ModelState is valid
+2020-12-17 19:15:28,296 [28] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:15:28,319 [48] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 19:15:28,328 [48] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:15:47,475 [25] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 19:15:47,480 [25] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:16:39,300 [48] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 19:16:39,307 [48] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:16:40,431 [48] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 19:16:40,434 [48] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:16:41,314 [25] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 19:16:41,319 [25] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:16:41,593 [33] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 19:16:41,597 [33] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:16:41,807 [17] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 19:16:41,809 [17] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:16:42,019 [48] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 19:16:42,023 [48] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:16:42,293 [33] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 19:16:42,299 [33] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:16:42,385 [9] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 19:16:42,389 [9] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:16:42,744 [33] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 19:16:42,826 [33] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:16:42,996 [9] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 19:16:43,001 [9] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:16:51,488 [9] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 19:16:51,493 [9] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:16:52,206 [17] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 19:16:52,212 [17] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:16:56,818 [17] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:17:07,615 [25] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 19:17:07,624 [25] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:17:59,657 [17] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 19:17:59,663 [17] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:18:38,048 [17] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:19:02,329 [46] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing HttpPost Create Method
+2020-12-17 19:19:02,332 [46] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - ModelState is valid
+2020-12-17 19:19:02,337 [46] ERROR SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Exception occured:
+System.Web.HttpException (0x80004005): The SaveAs method is configured to require a rooted path, and the path '~/ProductImages/iphone.jpg' is not rooted.
+   at System.Web.HttpPostedFile.SaveAs(String filename)
+   at System.Web.HttpPostedFileWrapper.SaveAs(String filename)
+   at SourceControlFinalAssignment.Controllers.ProductsController.Create(Product product) in E:\Learn\Gateway\Assignments-Gateway\SourceControlFinalAssignment\SourceControlFinalAssignment\Controllers\ProductsController.cs:line 78
+2020-12-17 19:19:02,356 [46] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:21:11,000 [41] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing HttpPost Create Method
+2020-12-17 19:21:11,002 [41] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - ModelState is valid
+2020-12-17 19:21:11,004 [41] ERROR SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Exception occured:
+System.Web.HttpException (0x80004005): The SaveAs method is configured to require a rooted path, and the path '~/ProductImages/iphone.jpg' is not rooted.
+   at System.Web.HttpPostedFile.SaveAs(String filename)
+   at System.Web.HttpPostedFileWrapper.SaveAs(String filename)
+   at SourceControlFinalAssignment.Controllers.ProductsController.Create(Product product) in E:\Learn\Gateway\Assignments-Gateway\SourceControlFinalAssignment\SourceControlFinalAssignment\Controllers\ProductsController.cs:line 78
+2020-12-17 19:21:11,723 [41] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:21:18,393 [25] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing HttpPost Create Method
+2020-12-17 19:21:18,396 [25] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - ModelState is valid
+2020-12-17 19:21:18,398 [25] ERROR SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Exception occured:
+System.Web.HttpException (0x80004005): The SaveAs method is configured to require a rooted path, and the path '~/ProductImages/iphone.jpg' is not rooted.
+   at System.Web.HttpPostedFile.SaveAs(String filename)
+   at System.Web.HttpPostedFileWrapper.SaveAs(String filename)
+   at SourceControlFinalAssignment.Controllers.ProductsController.Create(Product product) in E:\Learn\Gateway\Assignments-Gateway\SourceControlFinalAssignment\SourceControlFinalAssignment\Controllers\ProductsController.cs:line 78
+2020-12-17 19:21:18,408 [25] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:21:30,269 [17] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing HttpPost Create Method
+2020-12-17 19:21:30,271 [17] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - ModelState is valid
+2020-12-17 19:21:30,274 [17] ERROR SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Exception occured:
+System.Web.HttpException (0x80004005): The SaveAs method is configured to require a rooted path, and the path '~/ProductImages/iphone.jpg' is not rooted.
+   at System.Web.HttpPostedFile.SaveAs(String filename)
+   at System.Web.HttpPostedFileWrapper.SaveAs(String filename)
+   at SourceControlFinalAssignment.Controllers.ProductsController.Create(Product product) in E:\Learn\Gateway\Assignments-Gateway\SourceControlFinalAssignment\SourceControlFinalAssignment\Controllers\ProductsController.cs:line 78
+2020-12-17 19:21:30,290 [17] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:23:18,947 [40] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing HttpPost Create Method
+2020-12-17 19:23:18,950 [40] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - ModelState is valid
+2020-12-17 19:23:18,951 [40] ERROR SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Exception occured:
+System.Web.HttpException (0x80004005): The SaveAs method is configured to require a rooted path, and the path '~/ProductImages/iphone.jpg' is not rooted.
+   at System.Web.HttpPostedFile.SaveAs(String filename)
+   at System.Web.HttpPostedFileWrapper.SaveAs(String filename)
+   at SourceControlFinalAssignment.Controllers.ProductsController.Create(Product product) in E:\Learn\Gateway\Assignments-Gateway\SourceControlFinalAssignment\SourceControlFinalAssignment\Controllers\ProductsController.cs:line 78
+2020-12-17 19:23:19,639 [40] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:23:26,356 [23] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing HttpPost Create Method
+2020-12-17 19:23:26,359 [23] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - ModelState is valid
+2020-12-17 19:23:26,361 [23] ERROR SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Exception occured:
+System.Web.HttpException (0x80004005): The SaveAs method is configured to require a rooted path, and the path '~/ProductImages/iphone.jpg' is not rooted.
+   at System.Web.HttpPostedFile.SaveAs(String filename)
+   at System.Web.HttpPostedFileWrapper.SaveAs(String filename)
+   at SourceControlFinalAssignment.Controllers.ProductsController.Create(Product product) in E:\Learn\Gateway\Assignments-Gateway\SourceControlFinalAssignment\SourceControlFinalAssignment\Controllers\ProductsController.cs:line 78
+2020-12-17 19:23:26,367 [23] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:23:57,525 [23] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing HttpPost Create Method
+2020-12-17 19:23:57,530 [23] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - ModelState is valid
+2020-12-17 19:23:57,532 [23] ERROR SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Exception occured:
+System.Web.HttpException (0x80004005): The SaveAs method is configured to require a rooted path, and the path '~/ProductImages/iphone.jpg' is not rooted.
+   at System.Web.HttpPostedFile.SaveAs(String filename)
+   at System.Web.HttpPostedFileWrapper.SaveAs(String filename)
+   at SourceControlFinalAssignment.Controllers.ProductsController.Create(Product product) in E:\Learn\Gateway\Assignments-Gateway\SourceControlFinalAssignment\SourceControlFinalAssignment\Controllers\ProductsController.cs:line 78
+2020-12-17 19:23:58,335 [23] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:24:03,735 [17] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing HttpPost Create Method
+2020-12-17 19:24:03,738 [17] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - ModelState is valid
+2020-12-17 19:24:03,740 [17] ERROR SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Exception occured:
+System.Web.HttpException (0x80004005): The SaveAs method is configured to require a rooted path, and the path '~/ProductImages/iphone.jpg' is not rooted.
+   at System.Web.HttpPostedFile.SaveAs(String filename)
+   at System.Web.HttpPostedFileWrapper.SaveAs(String filename)
+   at SourceControlFinalAssignment.Controllers.ProductsController.Create(Product product) in E:\Learn\Gateway\Assignments-Gateway\SourceControlFinalAssignment\SourceControlFinalAssignment\Controllers\ProductsController.cs:line 78
+2020-12-17 19:24:03,750 [17] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:24:23,336 [23] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 19:24:23,355 [23] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:24:26,094 [17] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 19:24:26,102 [17] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:24:29,515 [25] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:27:52,110 [17] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:28:05,156 [23] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing HttpPost Create Method
+2020-12-17 19:28:05,160 [23] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - ModelState is valid
+2020-12-17 19:28:07,328 [23] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:28:07,340 [40] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 19:28:07,437 [40] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:30:01,869 [21] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:30:15,768 [21] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing HttpPost Create Method
+2020-12-17 19:30:15,775 [21] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - ModelState is valid
+2020-12-17 19:30:15,810 [21] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:30:15,826 [41] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 19:30:15,845 [41] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:33:26,041 [46] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:33:40,205 [21] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing HttpPost Create Method
+2020-12-17 19:33:40,208 [21] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - ModelState is valid
+2020-12-17 19:33:40,210 [21] ERROR SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Exception occured:
+System.Web.HttpException (0x80004005): The SaveAs method is configured to require a rooted path, and the path '~/ProductImages/iphone.jpg' is not rooted.
+   at System.Web.HttpPostedFile.SaveAs(String filename)
+   at System.Web.HttpPostedFileWrapper.SaveAs(String filename)
+   at SourceControlFinalAssignment.Controllers.ProductsController.Create(Product product) in E:\Learn\Gateway\Assignments-Gateway\SourceControlFinalAssignment\SourceControlFinalAssignment\Controllers\ProductsController.cs:line 79
+2020-12-17 19:33:40,214 [21] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:38:24,649 [41] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:38:50,031 [21] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing HttpPost Create Method
+2020-12-17 19:38:50,035 [21] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - ModelState is valid
+2020-12-17 19:38:54,586 [21] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:38:54,604 [40] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 19:38:54,721 [40] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:39:01,580 [41] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:39:03,111 [40] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:39:03,132 [50] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 19:39:03,142 [50] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:39:04,661 [41] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:39:05,658 [40] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:39:05,673 [21] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 19:39:05,680 [21] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:39:06,703 [41] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:39:07,533 [50] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:39:07,544 [40] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 19:39:07,549 [40] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:48:08,380 [25] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:48:19,140 [28] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:48:36,138 [50] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 19:48:36,298 [50] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:48:39,536 [17] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:49:13,868 [17] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing HttpPost Create Method
+2020-12-17 19:49:13,871 [17] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - ModelState is valid
+2020-12-17 19:49:14,061 [17] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:49:14,074 [13] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 19:49:14,100 [13] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:49:16,572 [25] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:49:19,373 [46] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 19:49:19,379 [46] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:49:40,557 [40] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:49:46,410 [17] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:50:23,728 [13] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 19:50:23,739 [13] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:51:15,948 [13] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 19:51:15,957 [13] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:51:16,839 [17] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:51:17,740 [50] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 19:51:17,748 [50] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:51:19,978 [28] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:51:23,959 [28] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 19:51:23,965 [28] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:51:25,780 [17] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:51:35,795 [46] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:51:36,718 [9] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 19:51:36,723 [9] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 19:51:47,252 [17] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 20:05:50,351 [13] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 20:05:50,920 [13] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 20:05:55,175 [9] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 20:05:59,355 [16] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 20:05:59,360 [16] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 20:06:00,778 [13] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
+2020-12-17 20:07:19,147 [25] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Executing Index Method
+2020-12-17 20:07:19,158 [25] INFO  SourceControlFinalAssignment.Controllers.ProductsController [(null)] - Disposing.
