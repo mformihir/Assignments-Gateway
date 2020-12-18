@@ -7,6 +7,7 @@ using SourceControlFinalAssignment.Models;
 
 namespace SourceControlFinalAssignment.DAL
 {
+    // DAL is used to configure DbContext
     public class ProductContext : DbContext
     {
         public ProductContext() : base("ProductContext")
