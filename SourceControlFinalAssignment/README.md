@@ -10,6 +10,8 @@
    - Only the basic Login, Register, Change Password Features are kept intact.
    - After successful login, user is directed to the Homepage/Dashboard.
    - Screenshots:
+   ![Dashboard](https://github.com/mformihir/Assignments-Gateway/blob/main/SourceControlFinalAssignment/Screenshots/Dashboard.jpg?raw=true)
+   </details>
    - Respective Commits: 
      - [IdentityModels](https://github.com/mformihir/Assignments-Gateway/blob/main/SourceControlFinalAssignment/SourceControlFinalAssignment/Models/IdentityModels.cs)
 2) Mapped the project in Git with below operations:
@@ -45,13 +47,13 @@
      - **3.2.6 ValidationMessageFor:** Performed. Link to respective View: [Create.cshtml](https://github.com/mformihir/Assignments-Gateway/blob/e147dc19926bf536068fe518e11e4bd5204466a9/SourceControlFinalAssignment/SourceControlFinalAssignment/Views/Products/Create.cshtml#L30)
      - **3.2.7 ValidationMessage:** Performed. Link to respective View: [Create.cshtml](https://github.com/mformihir/Assignments-Gateway/blob/e147dc19926bf536068fe518e11e4bd5204466a9/SourceControlFinalAssignment/SourceControlFinalAssignment/Views/Products/Create.cshtml#L22)
      - **3.2.8 Client-side validations:** Performed. Link to respective View: [Create.cshtml](https://github.com/mformihir/Assignments-Gateway/blob/e147dc19926bf536068fe518e11e4bd5204466a9/SourceControlFinalAssignment/SourceControlFinalAssignment/Views/Products/Create.cshtml)
-   - Screenshots:
-  4) Manage NuGet Packages of NewtonsoftJson:
+   - Screenshots: ![ProductForm](https://github.com/mformihir/Assignments-Gateway/blob/main/SourceControlFinalAssignment/Screenshots/ProductForm.jpg?raw=true)
+  1) Manage NuGet Packages of NewtonsoftJson:
      - NewtonsoftJson was already installed with the project at the time of creation.
      - Updated the Nuget Package of NewtonsoftJson from 12.0.2 -> 12.0.3.
      - **Respective Commits:**
        - [Manage NuGet Packages of NewtonsoftJson](https://github.com/mformihir/Assignments-Gateway/commit/d5430105d79f71b9a7df85089118c408f6360909)
-  5) Exception Handling & Logging:
+  2) Exception Handling & Logging:
      - Log4net (Logging in text file + logging in SQL database):
        - Added the Log4net package from NuGet Package manager. Configured it for logfile and for the database. Respective Commit: [Exception Handling & Logging](https://github.com/mformihir/Assignments-Gateway/commit/db106eab0623a19bb38094ecd681aa986e5b6fb1)
        - The log statements are demonstrated in [ProductsController.cs](https://github.com/mformihir/Assignments-Gateway/blob/db106eab0623a19bb38094ecd681aa986e5b6fb1/SourceControlFinalAssignment/SourceControlFinalAssignment/Controllers/ProductsController.cs#L19)
