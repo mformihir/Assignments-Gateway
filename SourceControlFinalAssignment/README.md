@@ -11,7 +11,8 @@
    - Screenshots:
    ![Dashboard](https://github.com/mformihir/Assignments-Gateway/blob/main/SourceControlFinalAssignment/Screenshots/Dashboard.jpg?raw=true)
    - Respective Commits: 
-     - [IdentityModels](https://github.com/mformihir/Assignments-Gateway/blob/main/SourceControlFinalAssignment/SourceControlFinalAssignment/Models/IdentityModels.cs)
+     - [Initial Project Setup](https://github.com/mformihir/Assignments-Gateway/commit/0f0cac4bb6eb66724c32b49dfc1a9ebc40f1a836#diff-e9333e2c2795706909323ed133d17980aca9a848dc441d96bdf91824691ad1e8)
+     - [Removed unnecessary authentication from ViewModels](https://github.com/mformihir/Assignments-Gateway/commit/82e3f343b15691e083d007b025241f76f9ec5013#diff-e9333e2c2795706909323ed133d17980aca9a848dc441d96bdf91824691ad1e8)
 2) Mapped the project in Git with below operations:
    - **2.1 Commit and Push**: Below are the links of the respective links to demonstrate Commit and Push:
      - [Initial Project Setup](https://github.com/mformihir/Assignments-Gateway/commit/0f0cac4bb6eb66724c32b49dfc1a9ebc40f1a836)
