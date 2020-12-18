@@ -47,7 +47,8 @@
      - **3.2.6 ValidationMessageFor:** Performed. Link to respective View: [Create.cshtml](https://github.com/mformihir/Assignments-Gateway/blob/e147dc19926bf536068fe518e11e4bd5204466a9/SourceControlFinalAssignment/SourceControlFinalAssignment/Views/Products/Create.cshtml#L30)
      - **3.2.7 ValidationMessage:** Performed. Link to respective View: [Create.cshtml](https://github.com/mformihir/Assignments-Gateway/blob/e147dc19926bf536068fe518e11e4bd5204466a9/SourceControlFinalAssignment/SourceControlFinalAssignment/Views/Products/Create.cshtml#L22)
      - **3.2.8 Client-side validations:** Performed. Link to respective View: [Create.cshtml](https://github.com/mformihir/Assignments-Gateway/blob/e147dc19926bf536068fe518e11e4bd5204466a9/SourceControlFinalAssignment/SourceControlFinalAssignment/Views/Products/Create.cshtml)
-   - Screenshots: ![ProductForm](https://github.com/mformihir/Assignments-Gateway/blob/main/SourceControlFinalAssignment/Screenshots/ProductForm.jpg?raw=true)
+   - Screenshots: 
+   ![ProductForm](https://github.com/mformihir/Assignments-Gateway/blob/main/SourceControlFinalAssignment/Screenshots/ProductForm.jpg?raw=true)
   1) Manage NuGet Packages of NewtonsoftJson:
      - NewtonsoftJson was already installed with the project at the time of creation.
      - Updated the Nuget Package of NewtonsoftJson from 12.0.2 -> 12.0.3.
