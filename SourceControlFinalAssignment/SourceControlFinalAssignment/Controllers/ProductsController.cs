@@ -28,7 +28,7 @@ namespace SourceControlFinalAssignment.Controllers
             catch (Exception ex)
             {
                 Log.Error("Exception occured", ex);
-                throw;
+                ViewBag.Errors = "Unexpected exception occured.";
             }
             return View(db.Products.ToList());
         }
@@ -87,7 +87,7 @@ namespace SourceControlFinalAssignment.Controllers
             catch (Exception ex)
             {
                 Log.Error("Exception occured:", ex);
-                throw;
+                ViewBag.Errors = "Unexpected exception occured.";
             }
             return View(product);
         }
@@ -121,7 +121,7 @@ namespace SourceControlFinalAssignment.Controllers
             catch (Exception ex)
             {
                 Log.Error("Exception occured:", ex);
-                throw;
+                ViewBag.Errors = "Unexpected exception occured.";
             }
             return RedirectToAction("Index");
         }
